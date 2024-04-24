@@ -1,0 +1,91 @@
+
+
+.navbar-brand img {
+    margin-right: 5px; /* Jarak antara logo dan teks brand */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Pindahkan item navbar ke ujung kanan */
+}
+
+
+.navbar-nav .nav-item {
+    margin-right: 10px; /* Jarak antara setiap item navbar */
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Menghapus margin kanan dari item terakhir */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Warna teks item navbar */
+    transition: color 0.3s; /* Transisi warna teks saat dihover */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffe600; /* Warna teks saat dihover */
+}
+
+
+    /* Gaya untuk form */
+    form {
+        max-width: 400px;
+        margin: 20px auto; /* Menambahkan margin atas dan bawah 20px, dan auto untuk tengah */
+        background-color: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="email"],
+    input[type="password"],
+    button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Agar padding tidak menambah lebar input */
+        transition: border-color 0.3s;
+    }
+
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+        border-color: #007bff; /* Warna border saat input aktif */
+    }
+
+    button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #0056b3; /* Warna background saat tombol dihover */
+    }
+    
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 50px;
+}
+
+.card2{
+    background-color: #cecece;
+
+}
+
+
+
+img {
+    border-radius: 5px;
+    border: 3px solid black ;
+}
+
+
+    
+.text {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+    
